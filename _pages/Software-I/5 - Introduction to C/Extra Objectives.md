@@ -1,10 +1,8 @@
 ---
-layout: satellite
-title: "Extra Objectives - Introduction to C Programming"
-date: 2024-01-15
-author: "Course Material"
-categories: [Software-I, C Programming]
-tags: [C programming, interactive objectives, programming fundamentals]
+title: "Extra Objectives - C Programming"
+date: "2025-10-27"
+thumbnail: "/assets/img/thumbnail/La-Mancha.jpg"
+bookmark: true
 ---
 
 # Extra Objectives: Introduction to C Programming

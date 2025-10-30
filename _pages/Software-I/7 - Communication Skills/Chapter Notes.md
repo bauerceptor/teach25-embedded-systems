@@ -1,10 +1,8 @@
 ---
-layout: satellite
 title: "Chapter Notes - Communication Skills"
-date: 2024-01-15
-author: "Course Material"
-categories: [Software-I, Communication Skills]
-tags: [communication skills, technical writing, email communication, team communication, social media marketing]
+date: "2025-10-25"
+thumbnail: "/assets/img/thumbnail/book.jpg"
+bookmark: true
 ---
 
 # Chapter Notes: Communication Skills

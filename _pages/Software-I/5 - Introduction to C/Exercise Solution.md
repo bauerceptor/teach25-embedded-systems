@@ -1,10 +1,8 @@
 ---
-layout: satellite
-title: "Exercise Solutions - Introduction to C Programming"
-date: 2024-01-15
-author: "Course Material"
-categories: [Software-I, C Programming]
-tags: [C programming, exercise solutions, programming practice]
+title: "Exercise Solutions - C Programming"
+date: "2025-10-25"
+thumbnail: "/assets/img/thumbnail/bricks.jpg"
+bookmark: true
 ---
 
 # Exercise Solutions: Introduction to C Programming
@@ -12,47 +10,69 @@ tags: [C programming, exercise solutions, programming practice]
 ## Multiple Choice Questions
 
 ### 1. Which of the following characters are used to comment in C?
-a. \\b. /* */ c. % d. Both a and b
+
+a) `\\`
+b) `/**/`
+c) `%`
+d) Both a and b
 
 **Answer: d) Both a and b**
 
 **Explanation:** C supports two types of comments:
+
 - `//` - Single line comment  
 - `/* */` - Multi-line comment
 
 ### 2. Which one of the following is a format specifier of char?
-a. %d b. &l c. %c d. Both a and b
 
-**Answer: c) %c**
+a) `%d`
+b) `&l`
+c) `%c`
+d) Both a and b
+
+**Answer: c) `%c`**
 
 **Explanation:** `%c` is the format specifier for character data type.
 
 ### 3. Which of the following functions is used to take inputs from users?
-a. sprintf() b. printf() c. scanf() d. None of these
 
-**Answer: c) scanf()**
+a) `sprintf()`
+b) `printf()`
+c) `scanf()`
+d) None of these
+
+**Answer: c) `scanf()`**
 
 **Explanation:** `scanf()` function is used to read input from the user.
 
 ### 4. Which one of the following is a format specifier of string?
-a. %s b. &l c. %c d. Both a and b
 
-**Answer: a) %s**
+a) `%s`
+b) `&l`
+c) `%c`
+d) Both a and b
+
+**Answer: a) `%s`**
 
 **Explanation:** `%s` is the format specifier for string data type.
 
 ### 5. Which one of the following is a format specifier of int?
-a. %d b. &l c. %c d. Both a and b
 
-**Answer: a) %d**
+a) `%d`
+b) `&l`
+c) `%c`
+d) Both a and b
+
+**Answer: a) `%d`**
 
 **Explanation:** `%d` is the format specifier for integer data type.
 
 ## Programming Questions
 
-### 1. Write a program to take input of name, roll no and marks obtained by a student in 5 subjects. Each subject have 100 full marks. Display the name, roll no with percentage score secured.
+### 1. Write a program to take input of name, roll no and marks obtained by a student in 5 subjects. Each subject have 100 full marks. Display the name, roll no with percentage score secured
 
 **Solution:**
+
 ```c
 #include <stdio.h>
 
@@ -88,9 +108,10 @@ int main() {
 }
 ```
 
-### 2. Write a program to add two numbers (5&7) and display its sum.
+### 2. Write a program to add two numbers (5&7) and display its sum
 
 **Solution:**
+
 ```c
 #include <stdio.h>
 
@@ -109,9 +130,10 @@ int main() {
 }
 ```
 
-### 3. Write a program to input marks of 5 subjects (Physics, Chemistry, Math, English & Biology) for a student. Display the rank of each subjects and also the result of total marks and percentage obtained with his/her rank in the class. The rank is categorized as fail (marks < 40%), pass & third division (marks between 40 to 55%), second (marks between 55 to 65%), first (marks between 65 to 80%), Distinction (marks between 80 to 95%), extra ordinary (marks above 95 to 100%).
+### 3. Write a program to input marks of 5 subjects (Physics, Chemistry, Math, English & Biology) for a student. Display the rank of each subjects and also the result of total marks and percentage obtained with his/her rank in the class. The rank is categorized as fail (marks < 40%), pass & third division (marks between 40 to 55%), second (marks between 55 to 65%), first (marks between 65 to 80%), Distinction (marks between 80 to 95%), extra ordinary (marks above 95 to 100%)
 
 **Solution:**
+
 ```c
 #include <stdio.h>
 
@@ -156,9 +178,10 @@ int main() {
 }
 ```
 
-### 4. Write a program to input two integer numbers and display the sum of even numbers between these two input numbers.
+### 4. Write a program to input two integer numbers and display the sum of even numbers between these two input numbers
 
 **Solution:**
+
 ```c
 #include <stdio.h>
 
@@ -192,9 +215,10 @@ int main() {
 }
 ```
 
-### 5. Write a program to add, subtract, multiply and divide two integers using user defined type function with return type.
+### 5. Write a program to add, subtract, multiply and divide two integers using user defined type function with return type
 
 **Solution:**
+
 ```c
 #include <stdio.h>
 
@@ -264,9 +288,10 @@ float divide(int a, int b) {
 }
 ```
 
-### 6. Write a program to find separately the sum of the positive and negative integer elements of an array of size 10. Define a function called sortarray(int[]), pass the array to this function and display the array elements into ascending order.
+### 6. Write a program to find separately the sum of the positive and negative integer elements of an array of size 10. Define a function called sortarray(int[]), pass the array to this function and display the array elements into ascending order
 
 **Solution:**
+
 ```c
 #include <stdio.h>
 
@@ -323,9 +348,10 @@ void displayArray(int arr[]) {
 }
 ```
 
-### 7. Write a program to read a sentence and count the number of characters & words in that sentence.
+### 7. Write a program to read a sentence and count the number of characters & words in that sentence
 
 **Solution:**
+
 ```c
 #include <stdio.h>
 

@@ -1,7 +1,8 @@
 ---
-title: "Basic Electrical Theory"
-date: "2024-01-01"
-thumbnail: "/assets/img/electrical-theory-bg.jpg"
+title: "Chapter Notes - Basic Electrical Theory"
+date: "2025-10-25"
+thumbnail: "/assets/img/thumbnail/book.jpg"
+bookmark: true
 ---
 
 # Chapter 1: Basic Electrical Theory

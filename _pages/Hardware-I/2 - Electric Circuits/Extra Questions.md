@@ -1,7 +1,8 @@
 ---
 title: "Extra Questions - Electric Circuits"
-date: "2024-01-01"
-thumbnail: "/assets/img/extra-questions-bg.jpg"
+date: "2025-10-28"
+thumbnail: "/assets/img/thumbnail/sample.png"
+bookmark: true
 ---
 
 # Extra Questions: Chapter 2 - Electric Circuits

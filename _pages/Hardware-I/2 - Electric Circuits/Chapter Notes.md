@@ -1,7 +1,8 @@
 ---
-title: "Chapter 2: Electric Circuits"
-date: "2024-01-01"
-thumbnail: "/assets/img/electric-circuits-bg.jpg"
+title: "Chapter Notes - Electric Circuits"
+date: "2025-10-25"
+thumbnail: "/assets/img/thumbnail/book.jpg"
+bookmark: true
 ---
 
 # Chapter 2: Electric Circuits

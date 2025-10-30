@@ -1,7 +1,8 @@
 ---
 title: "Exercise Solutions - Electric Circuits"
-date: "2024-01-01"
-thumbnail: "/assets/img/exercise-solutions-bg.jpg"
+date: "2025-10-25"
+thumbnail: "/assets/img/thumbnail/bricks.jpg"
+bookmark: true
 ---
 
 # Exercise Solutions: Chapter 2 - Electric Circuits

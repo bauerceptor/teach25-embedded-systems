@@ -1,7 +1,8 @@
 ---
-title: "Chapter 4: Electronics for IoT"
-date: "2024-01-01"
-thumbnail: "/assets/img/chapter4-bg.jpg"
+title: "Chapter Notes - Electronics for IoT"
+date: "2025-10-25"
+thumbnail: "/assets/img/thumbnail/book.jpg"
+bookmark: true
 ---
 
 # Chapter 4: Electronics for IoT

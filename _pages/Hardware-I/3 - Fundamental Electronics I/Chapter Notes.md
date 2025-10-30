@@ -1,7 +1,8 @@
 ---
-title: "Chapter 3: Fundamental Electronics I"
-date: "2024-01-01"
-thumbnail: "/assets/img/fundamental-electronics-bg.jpg"
+title: "Chapter Notes - Fundamental Electronics I"
+date: "2025-10-25"
+thumbnail: "/assets/img/thumbnail/book.jpg"
+bookmark: true
 ---
 
 # Chapter 3: Fundamental Electronics I

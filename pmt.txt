@@ -1,0 +1,62 @@
+we are working on making notes for students. the topic is in a pdf file in this directory.
+the pdf chapter contains the details. you need to go through the pdf file to understand the topic, its context and the exercises. next you need to generate notes for this chapter in a Chapter Notes markdown file.
+the notes need to cover topics properly and explain everything in a good, understandable and organized manner. but do not include anything beyond the context of the pdf. if you think some topic is important and foundational to the understanding of the topic in the pdf, but is ommited from the pdf then clearly mention that this topic is for understanding and will not be tested in the exams. then you need to generate an Exercise Solution markdown file where the solution of the pdf exercise. the short questions need to be max 2 to 4 lines and long questions can be max 10 to 20 lines. then you need to generate an Extra Questions markdown file which covers some extra short and long questions that are not covered in the exercise but can be asked in the exam. then you need to generate an Extra Objectives markdown file which contain fill in the blanks style questions that have a hidden effect applied on them. you can add the following style and script tags to make it like that:
+
+<style>
+.blank {
+    background-color: #f0f0f0;
+    border: 2px dashed #ccc;
+    padding: 2px 8px;
+    cursor: pointer;
+    border-radius: 4px;
+    display: inline-block;
+    min-width: 60px;
+    text-align: center;
+}
+
+.blank:hover {
+    background-color: #e0e0e0;
+}
+
+.revealed {
+    background-color: #d4edda;
+    border: 2px solid #c3e6cb;
+    color: #155724;
+}
+
+.explanation {
+    background-color: #f8f9fa;
+    border-left: 4px solid #007bff;
+    padding: 10px;
+    margin: 10px 0;
+    display: none;
+    border-radius: 4px;
+}
+
+.explanation.show {
+    display: block;
+}
+</style>
+
+<script>
+function revealAnswer(element, answer, explanationId) {
+    element.innerHTML = answer;
+    element.classList.add('revealed');
+    element.style.cursor = 'default';
+    
+    const explanation = document.getElementById(explanationId);
+    if (explanation) {
+        explanation.classList.add('show');
+    }
+}
+</script>
+
+
+note that you need to tell explicitly before extra objectives and questions that these are for understanding only. in the extra objectives, the answer details appear when student clicks on the blank. 
+
+
+do not use contractions like we've, they're, we're, he's, it's and so on. use proper words. do not use rosy words, keep the tone professional as in the pdf. do not add extra fluff of any kind. do not include any tell tale signs of AI and try not to use bullet points everywhere. use paragraphs, bullet points, numbered points and tables where they make sense. students will directly use these notes and exercises for exam preparations so take extra care to make sure that the notes can be used for memorization right away and that exercise answers are correct. the notes are NOT one-to-one mapping with the pdf. notes enhance and are better and more organized than pdfs
+
+some markdown file already contain content which you can check if it is relevant or not, if it is not relevant then overwrite it.
+
+all the markdown files are already there so you do not need to make a new one. and do not touch the front matter in the markdown files. you can edit anything except the frontmatter.

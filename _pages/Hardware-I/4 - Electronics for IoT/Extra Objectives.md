@@ -1,7 +1,8 @@
 ---
 title: "Extra Objectives - Electronics for IoT"
-date: "2024-01-01"
-thumbnail: "/assets/img/extra-objectives-bg.jpg"
+date: "2025-10-27"
+thumbnail: "/assets/img/thumbnail/La-Mancha.jpg"
+bookmark: true
 ---
 
 # Extra Objectives: Chapter 4 - Electronics for IoT

@@ -1,7 +1,8 @@
 ---
 title: "Extra Objectives - Fundamental Electronics I"
-date: "2024-01-01"
-thumbnail: "/assets/img/extra-objectives-bg.jpg"
+date: "2025-10-27"
+thumbnail: "/assets/img/thumbnail/La-Mancha.jpg"
+bookmark: true
 ---
 
 # Extra Objectives: Chapter 3 - Fundamental Electronics I

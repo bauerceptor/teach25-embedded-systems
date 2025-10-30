@@ -1,10 +1,8 @@
 ---
-layout: satellite
 title: "Extra Objectives - Operating Systems"
-date: 2024-01-15
-author: "Course Material"
-categories: [Software-I, Operating Systems]
-tags: [OS, system software, application software, firmware, Linux, Windows]
+date: "2025-10-27"
+thumbnail: "/assets/img/thumbnail/La-Mancha.jpg"
+bookmark: true
 ---
 
 # Extra Objectives: Operating Systems

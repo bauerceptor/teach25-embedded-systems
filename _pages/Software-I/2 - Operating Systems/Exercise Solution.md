@@ -1,323 +1,356 @@
 ---
-layout: satellite
 title: "Exercise Solutions - Operating Systems"
-date: 2024-01-15
-author: "Course Material"
-categories: [Software-I, Operating Systems]
-tags: [OS, system software, application software, firmware, Linux, Windows]
+date: "2025-10-25"
+thumbnail: "/assets/img/thumbnail/bricks.jpg"
+bookmark: true
 ---
 
 # Exercise Solutions: Operating Systems
 
-## Part A: Multiple Choice Questions
+## Multiple Choice Questions
 
-### 1. Windows is a
-**Answer: a) Operating Systems**
+### Question 1: Windows is a
+**Answer: a. Operating Systems**
 
-**Explanation:** Windows is primarily an operating system that manages computer hardware and provides services for application software. While it contains firmware-like components, its main classification is as an operating system.
+**Explanation:**
+Windows is primarily classified as an operating system. While it contains firmware components and runs application software, Windows itself is fundamentally an operating system that acts as an interface between users and computer hardware, managing system resources and providing a platform for applications to run.
 
-### 2. VMware is a
-**Answer: c) Application Software**
+### Question 2: VMware is a
+**Answer: c. Application Software**
 
-**Explanation:** VMware is virtualization application software that runs on top of an operating system to create and manage virtual machines. It is not an operating system itself but rather software that enables virtualization.
+**Explanation:**
+VMware Workstation is application software that runs on top of an existing operating system (like Windows or Linux). It's not an operating system itself, nor is it firmware. VMware is a virtualization application that creates and manages virtual machines, making it a specialized application software tool.
 
-### 3. Which of the following OS is open source?
-**Answer: a) Linux**
+### Question 3: Which of the following OS is open source?
+**Answer: a. Linux**
 
-**Explanation:** Linux is an open-source operating system where the source code is freely available and can be modified. Windows and MS-DOS are proprietary closed-source operating systems.
+**Explanation:**
+Linux is an open-source operating system where the source code is freely available for modification and distribution. Windows and MS-DOS are proprietary operating systems owned by Microsoft, while "None of these" is incorrect since Linux is indeed open source.
 
-### 4. cp command is used to
-**Answer: b) copy files**
+### Question 4: cp command is used to
+**Answer: b. copy files**
 
-**Explanation:** The cp command in Linux stands for "copy" and is used to copy files and directories from one location to another while preserving the original file.
+**Explanation:**
+The `cp` command in Linux stands for "copy" and is specifically used to copy files and directories. It preserves the original file while creating a duplicate at the specified destination. The command does not move or delete files - those operations are performed by `mv` and `rm` commands respectively.
 
-### 5. mv command is used to
-**Answer: a) move files**
+### Question 5: mv command is used to
+**Answer: a. move files**
 
-**Explanation:** The mv command in Linux stands for "move" and is used to move files and directories from one location to another. It can also be used for renaming files.
+**Explanation:**
+The `mv` command in Linux stands for "move" and is used to move files and directories from one location to another. It can also be used for renaming files and directories. Unlike the `cp` command, `mv` does not preserve the original file in its original location - it moves or renames it.
 
-## Part B: Short Answer Questions
+---
 
-### 1. Define Software.
+## Short Answer Questions
 
-**Answer:** Software is a set of instructions or programs that tell a computer to perform specific tasks. It is a generic term used to describe computer programs, including scripts, applications, and sets of instructions that make computers functional and useful. Software can be classified into system software and application software based on their function and purpose.
+### 1. Define Software
 
-### 2. Differentiate between applications software and system software?
+**Answer:**
+Software is a set of instructions or programs that instruct a computer to perform specific tasks. It is a generic term used to describe computer programs, including scripts, applications, programs, and instruction sets that make computers functional and useful for human needs.
+
+Software can be classified into two main categories:
+- **System Software:** Acts as an interface between application software and hardware
+- **Application Software:** Runs on the platform provided by system software to perform specific user tasks
+
+### 2. Differentiate between applications software and system software
 
 **Answer:**
 
 | Aspect | System Software | Application Software |
-|--------|----------------|---------------------|
-| **Definition** | Interface between application software and hardware | Software that runs as per user request |
-| **Development Language** | Low-level languages compatible with hardware | High-level languages for specific purposes |
-| **Usage** | Controls and operates computer hardware | Performs specific user tasks |
-| **Installation** | Installed with operating system | Installed according to user requirements |
-| **User Interaction** | Minimal or no direct user interaction | User-friendly interfaces for interaction |
-| **Dependency** | Runs independently, provides platform for others | Depends on system software to function |
-| **Examples** | OS, compilers, debuggers, drivers | Word processors, web browsers, games |
+|--------|-----------------|----------------------|
+| **Definition** | Interface between application software and system hardware | Software that runs as per user request on system software platform |
+| **Development Language** | Low-level languages (C, C++, Assembly) for hardware compatibility | High-level languages for specific purpose development |
+| **Usage** | Operating computer hardware and managing system resources | Performing specific user tasks and activities |
+| **Installation** | Installed automatically with operating system | Installed according to user requirements |
+| **User Interaction** | Minimal or no direct user interaction | User-friendly interfaces for direct interaction |
+| **Dependency** | Runs independently and provides platform for other software | Cannot run independently; requires system software |
+| **Examples** | Operating systems, compilers, drivers, debuggers | Word processors, web browsers, media players, games |
 
-### 3. Describe functionalities of an operating system.
+### 3. Describe functionalities of an operating system
 
-**Answer:** An operating system performs nine essential functions:
+**Answer:**
+An operating system performs nine essential functions:
 
-1. **Memory Management:** Tracks memory usage, allocates memory to processes, and deallocates when no longer needed
-2. **Processor Management:** Schedules processes, allocates CPU time, and manages process execution
-3. **Device Management:** Controls hardware devices through drivers and manages device allocation
-4. **File Management:** Organizes files in directories, manages file access, and controls file operations
-5. **Security:** Implements password protection and prevents unauthorized access to data
-6. **Performance Monitoring:** Records system response times and monitors resource utilization
-7. **Job Accounting:** Tracks time and resources used by various processes and users
-8. **Error Detection:** Produces debugging aids, error messages, and handles system failures
-9. **Software Coordination:** Manages compilers, interpreters, and assigns software resources to users
+**1. Memory Management:**
+- Tracks which parts of main memory are in use and by whom
+- Decides memory allocation in multiprogramming environments
+- Allocates memory when processes request it
+- Deallocates memory when processes terminate
 
-### 4. Define Firmware.
+**2. Processor Management:**
+- Keeps track of processor and process status using traffic controller
+- Allocates CPU to processes through process scheduling
+- Deallocates processor when processes no longer require it
 
-**Answer:** Firmware is a tangible electronic component containing embedded software instructions that tell electronic devices how to operate. It is stored in non-volatile memory devices such as ROM, EPROM, or flash memory. Firmware provides the control program for devices and is typically permanent, rarely changing during the device's economic lifetime. Examples include BIOS in computers, software in embedded systems like traffic lights, and control programs in consumer appliances.
+**3. Device Management:**
+- Tracks all devices using I/O controller
+- Decides device allocation to processes
+- Manages efficient device utilization
+- Deallocates devices when no longer needed
 
-### 5. Define Virtual Machine.
+**4. File Management:**
+- Organizes files into directories for easy navigation
+- Tracks file information, location, usage, and status
+- Controls resource allocation and access permissions
+- Manages file system hierarchy
 
-**Answer:** A Virtual Machine (VM) is a software resource that uses software instead of physical computer hardware to run programs and deploy applications. One or more virtual machines can run on a single physical host computer, with each VM running its own operating system independently. VMs function separately from each other even when running on the same host, allowing for efficient resource utilization and isolated computing environments.
+**5. Security:**
+- Prevents unauthorized access through passwords and authentication
+- Protects programs and data from security threats
+- Implements access control and user permissions
 
-### 6. Define Task Manager.
+**6. Control over System Performance:**
+- Records delays between service requests and system responses
+- Monitors system resource utilization
+- Identifies performance bottlenecks
 
-**Answer:** Task Manager is a powerful Windows tool that provides information about system resource usage and running processes. It displays detailed statistics about each process, monitors CPU, memory, disk, and network usage, and allows users to manage running applications. Task Manager can be used to end unresponsive programs, monitor system performance, and analyze resource consumption by different applications and services.
+**7. Job Accounting:**
+- Keeps track of time and resources used by various jobs and users
+- Provides usage statistics for billing and administration
+- Monitors resource consumption patterns
 
-### 7. Describe command prompt and its usage.
+**8. Error Detecting Aids:**
+- Produces system dumps, traces, and error messages
+- Provides debugging and diagnostic tools
+- Handles error recovery and system stability
 
-**Answer:** Command Prompt is a command-line interface for Windows operating systems that allows users to interact with the system through text commands. 
+**9. Coordination between Software and Users:**
+- Coordinates compilers, interpreters, and assemblers
+- Assigns software resources to users
+- Manages software integration and compatibility
+
+### 4. Define Firmware
+
+**Answer:**
+Firmware is a tangible electronic component with embedded software instructions that tells electronic devices how to operate. It serves as the bridge between hardware and software, providing fundamental control programs for devices.
+
+**Key characteristics of firmware:**
+
+**Storage:** Stored in non-volatile memory devices such as ROM, EPROM, or flash memory, allowing it to persist even when power is removed.
+
+**Permanence:** Changing firmware may rarely or never occur during a device's economic lifetime. Some firmware memory devices are permanently installed and cannot be changed after manufacture.
+
+**Functionality:** 
+- **Elementary functions:** Like ROM BIOS, providing basic device functions and services to higher-level software
+- **Complete system control:** In embedded systems, firmware may be the only program running, providing all device functions
+
+**Update reasons:** Common reasons for firmware updates include fixing bugs, adding features, improving security, and supporting new hardware drivers.
+
+**Examples:** BIOS in computers, firmware in traffic lights, consumer appliances, digital watches, mobile phones, and digital cameras.
+
+### 5. Define Virtual Machine
+
+**Answer:**
+A Virtual Machine (VM) is a software resource that uses software instead of physical computer hardware to run programs and deploy applications. Multiple virtual machines can run on a single physical host computer.
+
+**Key characteristics:**
+
+**Isolation and Independence:**
+- Each VM runs its own operating system independently
+- VMs function separately even when running on the same host
+- Hardware resources are shared but logically separated
+- Each VM appears as a complete computer system
+
+**Resource Management:**
+- Host machine allocates physical resources to guest VMs
+- Memory, CPU, storage, and network resources are virtualized
+- Resource allocation can be adjusted based on needs
+- Efficient utilization of underlying hardware
+
+**Benefits:**
+- **Cost Efficiency:** Reduces hardware requirements, power consumption, and space
+- **Flexibility:** Easy deployment and quick resource provisioning
+- **Development and Testing:** Safe environment for testing with multiple OS environments
+- **Scalability:** Simple backup, recovery, and system state management
+
+### 6. Define Task Manager
+
+**Answer:**
+The Windows Task Manager is a powerful system tool that provides comprehensive information about system performance and running processes. It allows users to monitor system resource usage and manage applications and processes.
+
+**Key functions:**
+
+**Process Management:**
+- Lists visible applications running on desktop
+- Shows background processes and system services
+- Displays detailed resource usage (CPU, memory, disk, network)
+- Allows termination of unresponsive or problematic programs
+
+**Performance Monitoring:**
+- Real-time CPU usage and performance graphs
+- Memory usage, available memory, and memory composition
+- Disk activity and transfer rates
+- Network adapter usage and data transfer rates
+
+**System Analysis:**
+- Startup program management and impact assessment
+- Service management and status monitoring
+- User session monitoring and management
+- Detailed process information and resource consumption
 
 **Access Methods:**
-- Click Start → Search/Run → type "cmd" → press Enter
-- Use keyboard shortcut Windows+R → type "cmd"
+- Keyboard shortcut: Ctrl+Shift+Esc (recommended)
+- Right-click taskbar → Select "Task Manager"
+- Ctrl+Alt+Delete → Choose "Task Manager"
+- Start menu search or Run command (taskmgr)
 
-**Usage:**
-- List directory contents using commands like "dir"
-- Navigate directories using "cd" command
-- Run application programs directly
-- Perform file operations (copy, move, delete)
-- Execute system utilities and administrative tasks
-- Automate tasks through batch scripts
+### 7. Describe command prompt and its usage
+
+**Answer:**
+Command Prompt is a command-line interface for Windows operating systems that provides direct access to system commands and utilities through text-based commands.
+
+**Access Methods:**
+1. Click Start button
+2. Type "cmd" in search box and press Enter
+3. Alternative: Start → Run → Type "cmd" → Enter
+4. For elevated privileges: Right-click → "Run as administrator"
+
+**Key capabilities:**
+
+**File and Directory Operations:**
+- Navigate between directories using `cd` command
+- List directory contents with `dir` command
+- Copy, move, and delete files using command-line tools
+- Create and remove directories
+
+**System Administration:**
+- Access detailed system information and configuration
+- Perform advanced system configuration and troubleshooting
+- Execute system utilities and maintenance tools
+- Manage user accounts and permissions
+
+**Network Operations:**
+- Use network diagnostic tools like `ping` and `ipconfig`
+- Test network connectivity and configuration
+- Troubleshoot network issues
+- Configure network settings
+
+**Automation and Scripting:**
+- Execute batch files for automated tasks
+- Run multiple commands in sequence
+- Create scripts for repetitive operations
+- Schedule automated system maintenance
+
+**Examples of common commands:**
+- `dir` - List directory contents
+- `cd C:\Users` - Change to Users directory
+- `copy file1.txt file2.txt` - Copy files
+- `md newfolder` - Create new directory
+- `ipconfig` - Display network configuration
+- `ping google.com` - Test network connectivity
 
 ### 8. What is the purpose of Device Manager in Windows?
 
-**Answer:** Device Manager serves several important purposes in Windows:
+**Answer:**
+Device Manager is a Windows control panel extension that provides users with an organized, central view of all Windows-recognized hardware attached to a computer. It serves as the primary tool for hardware management and troubleshooting.
 
-**Primary Functions:**
-- Provides an organized, central view of all Windows-recognized hardware attached to the computer
-- Lists hardware devices by categories (keyboards, hard drives, USB devices, etc.)
-- Monitors device status and immediately notifies users of malfunctions
-- Enables users to control devices (enable, disable, configure)
-- Manages device drivers and identifies conflicts between devices
+**Primary purposes:**
 
-**Capabilities:**
-- Update device drivers automatically or manually
-- Troubleshoot hardware problems and conflicts
-- View detailed device properties and specifications
-- Install new hardware and remove obsolete devices
-- Configure device settings and resources
+**Hardware Management:**
+- Provides comprehensive view of all detected hardware devices
+- Organizes devices by category (Audio, Display, Network, Storage, etc.)
+- Shows device status and operational condition
+- Displays device properties and configuration details
 
-### 9. Differentiate Update and Upgrade.
+**Driver Management:**
+- Install, update, disable, or uninstall device drivers
+- Search automatically for updated driver software
+- Roll back drivers to previous versions if needed
+- Manage driver conflicts and compatibility issues
+
+**Troubleshooting and Diagnostics:**
+- Identify hardware problems and malfunctioning devices
+- Display error codes and diagnostic information
+- Resolve hardware conflicts and resource allocation issues
+- Test device functionality and performance
+
+**System Configuration:**
+- Enable or disable specific hardware devices
+- Configure device settings and properties
+- Manage hardware resources and assignments
+- Control device power management settings
+
+**Device categories include:**
+- Audio inputs and outputs
+- Display adapters
+- Network adapters
+- Storage controllers
+- Human Interface Devices
+- System devices
+- Universal Serial Bus controllers
+
+Device Manager is essential for maintaining system hardware, ensuring all devices function properly, and resolving hardware-related issues that may affect system performance and stability.
+
+### 9. Differentiate Update and Upgrade
 
 **Answer:**
 
 | Aspect | Update | Upgrade |
 |--------|--------|---------|
-| **Definition** | Small changes that do not affect core structure | Significant and substantial changes to software |
-| **Size** | Small (kilobytes to megabytes) | Large (can be gigabytes) |
+| **Definition** | Small changes that don't affect core structure | Significant and substantial changes with major new features |
+| **Size** | Usually small (kilobytes to megabytes) | Large (can be gigabytes) |
 | **Frequency** | Regular and frequent | Less frequent, major releases |
-| **Purpose** | Bug fixes, security patches, minor improvements | New features, GUI changes, major functionality |
+| **Purpose** | Bug fixes, security patches, driver support | New features, GUI changes, major improvements |
 | **Installation Time** | Minutes to complete | Hours to complete |
-| **Cost** | Usually free | May require purchase or subscription |
-| **Examples** | Security patches, driver updates, bug fixes | Windows 7 to Windows 10, Office 2016 to 2019 |
-| **Impact** | Maintains existing functionality with improvements | Introduces new capabilities and features |
+| **Cost** | Typically free | May require purchase or subscription |
+| **Impact** | Maintains compatibility, minor improvements | May change interface, add major functionality |
+| **Examples** | Security patches, bug fixes, driver updates | Windows 7 to Windows 10, Office 2016 to 2019 |
 
-## Part C: Practical Task Solutions
+**Update characteristics:**
+- Maintains software core structure and functionality
+- Often includes security vulnerability fixes
+- Performance optimizations and stability improvements
+- Compatible with existing user data and settings
+- Usually automatic or easy installation process
 
-### 1. Install Windows 10 on the given PC.
+**Upgrade characteristics:**
+- May involve complete software architecture changes
+- Introduces new user interface elements and workflows
+- Adds significant new features and capabilities
+- May require new hardware or system requirements
+- Often requires user training and adaptation
+- May involve data migration and configuration transfer
 
-**Solution Steps:**
-
-**Preparation:**
-1. Create installation media using Microsoft's Media Creation Tool
-2. Download Windows 10 ISO and create bootable USB drive
-3. Ensure minimum system requirements are met
-4. Backup important data if upgrading existing system
-
-**Installation Process:**
-1. Insert bootable USB and restart computer
-2. Access BIOS/UEFI (usually F2, F12, or Delete key)
-3. Set USB as first boot device in boot order
-4. Save BIOS settings and restart
-5. Follow Windows installation wizard:
-   - Select language and region
-   - Enter product key or skip for later activation
-   - Accept license terms
-   - Choose installation type (custom for clean install)
-   - Select hard drive partition
-   - Wait for installation to complete (may restart multiple times)
-6. Complete initial setup:
-   - Create user account
-   - Configure privacy settings
-   - Connect to network
-   - Install updates
-
-### 2. Replace Windows Installation with Ubuntu Installation.
-
-**Solution Steps:**
-
-**Preparation:**
-1. Download Ubuntu ISO from official website
-2. Create bootable USB using tools like Rufus or Balena Etcher
-3. Backup important Windows data to external storage
-4. Note down WiFi passwords and important settings
-
-**Installation Process:**
-1. Boot from Ubuntu USB drive
-2. Select "Install Ubuntu" from welcome screen
-3. Choose keyboard layout and language
-4. Select "Normal installation" or "Minimal installation"
-5. Choose "Erase disk and install Ubuntu" to replace Windows
-6. Confirm disk changes (this will delete Windows)
-7. Select timezone and location
-8. Create user account with strong password
-9. Complete installation and restart system
-10. Remove USB drive when prompted
-11. Configure system after first boot:
-    - Update software packages
-    - Install additional drivers if needed
-    - Restore backed-up data
-
-### 3. Install Ubuntu on VMware Workstation.
-
-**Solution Steps:**
-
-**VMware Setup:**
-1. Install VMware Workstation on host system
-2. Launch VMware and select "Create a New Virtual Machine"
-3. Choose "Typical (recommended)" configuration
-4. Select "Installer disc image file (iso)" and browse to Ubuntu ISO
-5. Configure virtual machine settings:
-   - Name and location for VM
-   - Disk size (minimum 20GB recommended)
-   - Memory allocation (minimum 2GB recommended)
-   - Network adapter settings
-
-**Ubuntu Installation in VM:**
-1. Power on virtual machine
-2. Ubuntu installer will start automatically
-3. Follow standard Ubuntu installation process:
-   - Select language and keyboard
-   - Choose "Erase disk and install Ubuntu" (safe in VM)
-   - Create user account
-   - Complete installation
-4. Install VMware Tools for better integration:
-   - VM menu → Install VMware Tools
-   - Mount tools disc in Ubuntu
-   - Run installation script
-   - Restart virtual machine
-
-### 4. Use Command Prompt to copy the contents of a file into another file.
-
-**Solution Steps:**
-
-**Method 1: Using COPY command**
-```cmd
-copy source_file.txt destination_file.txt
-```
-
-**Method 2: Using XCOPY command (for directories)**
-```cmd
-xcopy source_folder destination_folder /E /I
-```
-
-**Step-by-step Process:**
-1. Open Command Prompt (Start → Run → cmd)
-2. Navigate to the directory containing source file:
-   ```cmd
-   cd C:\path\to\source\directory
-   ```
-3. Use copy command to duplicate file:
-   ```cmd
-   copy original.txt copy_of_original.txt
-   ```
-4. Verify copy was successful:
-   ```cmd
-   dir
-   ```
-
-**Advanced Options:**
-- Copy with verification: `copy /V source.txt dest.txt`
-- Copy and overwrite: `copy /Y source.txt dest.txt`
-- Copy multiple files: `copy *.txt backup_folder\`
-
-### 5. Uninstall an application program from Windows using Control Panel.
-
-**Solution Steps:**
-
-**Method 1: Control Panel**
-1. Open Control Panel:
-   - Start → Control Panel
-   - Or Windows+R → "appwiz.cpl"
-2. Select "Programs and Features" or "Uninstall a program"
-3. Find the application in the list
-4. Right-click and select "Uninstall" or double-click
-5. Follow uninstall wizard prompts
-6. Restart computer if prompted
-
-**Method 2: Settings App (Windows 10)**
-1. Open Settings (Windows+I)
-2. Go to Apps → Apps & features
-3. Find the application in the list
-4. Click on the app and select "Uninstall"
-5. Confirm uninstallation
-6. Follow any additional prompts
-
-**Method 3: Application's Own Uninstaller**
-1. Check Start Menu for application's uninstall option
-2. Navigate to application installation folder
-3. Look for uninstall.exe or similar file
-4. Run uninstaller as administrator
-5. Follow prompts to complete removal
-
-### 6. Upgrade Windows 7 to Windows 10 and make sure to keep all programs and data.
-
-**Solution Steps:**
-
-**Preparation:**
-1. Check system compatibility for Windows 10
-2. Backup important data to external storage
-3. Note down software license keys
-4. Ensure stable internet connection
-5. Free up disk space (minimum 16GB for 32-bit, 32GB for 64-bit)
-
-**In-Place Upgrade Process:**
-1. Download Windows 10 Media Creation Tool from Microsoft
-2. Run the tool and select "Upgrade this PC now"
-3. Accept license terms
-4. Choose "Keep personal files and apps" option
-5. Wait for download and preparation (depends on internet speed)
-6. Follow installation prompts:
-   - Click "Install" when ready
-   - Select "Keep personal files and apps" when asked what to keep
-7. Wait for upgrade process (may restart several times)
-8. Complete initial Windows 10 setup:
-   - Sign in with existing account
-   - Configure privacy settings
-   - Verify all programs and data are intact
-
-**Post-Upgrade Verification:**
-1. Check that all programs still work correctly
-2. Verify personal files are accessible
-3. Update device drivers if necessary
-4. Run Windows Update to get latest patches
-5. Activate Windows 10 (should activate automatically)
-
-**Troubleshooting Tips:**
-- If upgrade fails, check Windows Update troubleshooter
-- Temporarily disable antivirus during upgrade
-- Remove unnecessary programs before upgrading
-- Use Windows 10 compatibility checker for older software
+**Management strategies:**
+- **Updates:** Should be applied regularly for security and stability
+- **Upgrades:** Require careful planning, testing, and user preparation
+- Both are essential for maintaining secure, functional, and current software systems
 
 ---
 
-*These solutions provide comprehensive guidance for completing all practical tasks while ensuring proper system configuration and data preservation.*
+## Practical Application Notes
+
+### Windows Update Management Process
+
+**Steps for managing Windows updates:**
+1. Navigate to Settings → Update & Security → Windows Update
+2. Click "Check for Windows updates"
+3. Review available updates and their descriptions
+4. Configure active hours to avoid unwanted restarts
+5. Select "Advanced options" for additional update settings
+6. Monitor update installation progress and restart when required
+
+### Linux File Operations Examples
+
+**Copy operations:**
+```bash
+cp document.txt backup.txt           # Copy single file
+cp -r projects/ backup_projects/     # Copy directory recursively
+cp *.txt documents/                  # Copy all .txt files
+```
+
+**Move operations:**
+```bash
+mv oldname.txt newname.txt          # Rename file
+mv file.txt /home/user/documents/   # Move file to directory
+mv temp_folder/ permanent_folder/   # Rename directory
+```
+
+**Find operations:**
+```bash
+find . -name "config.txt"           # Find specific file
+find /var -type f -size +100M       # Find large files
+find . -mtime -7 -name "*.log"      # Find recent log files
+```
+
+These practical examples demonstrate the real-world application of operating system concepts covered in this chapter, providing hands-on experience with the theoretical knowledge presented.

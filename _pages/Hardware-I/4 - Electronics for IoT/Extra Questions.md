@@ -1,7 +1,8 @@
 ---
 title: "Extra Questions - Electronics for IoT"
-date: "2024-01-01"
-thumbnail: "/assets/img/extra-questions-bg.jpg"
+date: "2025-10-28"
+thumbnail: "/assets/img/thumbnail/sample.png"
+bookmark: true
 ---
 
 # Extra Questions: Chapter 4 - Electronics for IoT

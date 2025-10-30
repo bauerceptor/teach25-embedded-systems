@@ -1,10 +1,8 @@
 ---
-layout: satellite
-title: "Chapter Notes - Introduction to C Programming"
-date: 2024-01-15
-author: "Course Material"
-categories: [Software-I, C Programming]
-tags: [C programming, programming fundamentals, data types, operators, control structures, functions, arrays, strings]
+title: "Chapter Notes - C Programming"
+date: "2025-10-25"
+thumbnail: "/assets/img/thumbnail/book.jpg"
+bookmark: true
 ---
 
 # Chapter Notes: Introduction to C Programming

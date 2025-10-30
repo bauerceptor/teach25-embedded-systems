@@ -1,10 +1,8 @@
 ---
-layout: satellite
 title: "Extra Objectives - Computer Networks"
-date: 2024-01-15
-author: "Course Material"
-categories: [Software-I, Computer Networks]
-tags: [networking, LAN, WAN, OSI model, TCP/IP, IP addressing, network topology, IoT]
+date: "2025-10-27"
+thumbnail: "/assets/img/thumbnail/La-Mancha.jpg"
+bookmark: true
 ---
 
 # Extra Objectives: Computer Networks

@@ -1,13 +1,13 @@
 ---
-layout: satellite
 title: "Extra Objectives - Computer Security"
-date: 2024-01-15
-author: "Course Material"
-categories: [Software-I, Computer Security]
-tags: [computer security, interactive objectives, cybersecurity fundamentals]
+date: "2025-10-27"
+thumbnail: "/assets/img/thumbnail/La-Mancha.jpg"
+bookmark: true
 ---
 
 # Extra Objectives: Computer Security
+
+*Note: These objectives are for understanding only and will not be tested in exams.*
 
 ## Learning Objectives with Interactive Fill-in-the-Blanks
 
