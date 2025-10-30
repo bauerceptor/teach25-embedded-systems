@@ -1,7 +1,7 @@
 ---
 title: "Exercise Solutions - Computer Security"
 date: "2025-10-25"
-thumbnail: "/assets/img/thumbnail/bricks.jpg"
+thumbnail: "/assets/img/thumbnail/bricks.webp"
 bookmark: true
 ---
 
@@ -10,42 +10,47 @@ bookmark: true
 ## Select the most appropriate option
 
 **1. Which of the following is a component of an Information System?**
-   - a. Hardware
-   - b. Software  
-   - c. Telecommunication
-   - **d. All of these**
+
+- a. Hardware
+- b. Software  
+- c. Telecommunication
+- **d. All of these**
 
 **Answer: d. All of these**
 
 **2. _____ are the people who use their knowledge for good purpose.**
-   - a. Intruders
-   - **b. Hackers**
-   - c. Crackers
-   - d. Both a and b
+
+- a. Intruders
+- **b. Hackers**
+- c. Crackers
+- d. Both a and b
 
 **Answer: b. Hackers**
 
 **3. _____ is a weakness in your infrastructure.**
-   - a. Risk
-   - b. Threat
-   - **c. Vulnerability**
-   - d. None of these
+
+- a. Risk
+- b. Threat
+- **c. Vulnerability**
+- d. None of these
 
 **Answer: c. Vulnerability**
 
 **4. _______ controls network traffic.**
-   - a. Antivirus
-   - **b. Firewall**
-   - c. Wireshark
-   - d. Both a and b
+
+- a. Antivirus
+- **b. Firewall**
+- c. Wireshark
+- d. Both a and b
 
 **Answer: b. Firewall**
 
 **5. ____ is a process of making a copy of information.**
-   - a. scanning
-   - b. restore
-   - **c. backup**
-   - d. Both a and b
+
+- a. scanning
+- b. restore
+- **c. backup**
+- d. Both a and b
 
 **Answer: c. backup**
 

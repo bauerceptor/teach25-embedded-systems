@@ -1,7 +1,7 @@
 ---
 title: "Exercise Solutions - Communication Skills"
 date: "2025-10-25"
-thumbnail: "/assets/img/thumbnail/bricks.jpg"
+thumbnail: "/assets/img/thumbnail/bricks.webp"
 bookmark: true
 ---
 
@@ -9,44 +9,49 @@ bookmark: true
 
 ## Multiple Choice Questions
 
-### Select the most appropriate option.
+### Select the most appropriate option
 
 **1. Which option hides other recipients from all recipients.**
-- a. CC 
+
+- a. CC
 - b. BCC ✓
-- c. Subject Line 
+- c. Subject Line
 - d. All of these
 
 **Answer: b. BCC** - Blind Carbon Copy (BCC) hides other recipients' email addresses from all recipients, while CC shows all addresses to everyone.
 
 **2. Communication barriers can be categorized into ______ types.**
-- a. 5 
-- b. 3 
+
+- a. 5
+- b. 3
 - c. 4 ✓
 - d. Both a and b
 
 **Answer: c. 4** - Communication barriers are categorized into four main types: Physical, psychological, organizational, and semantic barriers.
 
 **3. The following quality of your business builds relationships.**
-- a. Brand loyalty 
+
+- a. Brand loyalty
 - b. Customer Interaction ✓
-- c. Evaluation 
+- c. Evaluation
 - d. None of these
 
 **Answer: b. Customer Interaction** - Customer interaction through social media enables direct communication and relationship building with customers.
 
 **4. _______ contains the headlines of your email.**
-- a. Attachment 
+
+- a. Attachment
 - b. Subject line ✓
-- c. Text 
+- c. Text
 - d. Both a and b
 
 **Answer: b. Subject line** - The subject line functions like newspaper headlines, conveying the main point of the email message.
 
 **5. ____ is a face to face medium of communication.**
-- a. Spoken 
-- b. Verbal 
-- c. Non verbal 
+
+- a. Spoken
+- b. Verbal
+- c. Non verbal
 - d. Both a and b ✓
 
 **Answer: d. Both a and b** - Both spoken and verbal communication include face-to-face interaction as primary methods.

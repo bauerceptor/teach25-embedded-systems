@@ -1,7 +1,7 @@
 ---
 title: "Exercise Solutions - Work, Health & Safety"
 date: "2025-10-25"
-thumbnail: "/assets/img/thumbnail/bricks.jpg"
+thumbnail: "/assets/img/thumbnail/bricks.webp"
 bookmark: true
 ---
 
